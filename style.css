@@ -79,3 +79,29 @@ h3 {
         font-size: 40px;
     }
 }
+.cv-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #a6c1ee, #fbc2eb);
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cv-container {
+    background: white;
+    max-width: 800px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.cv-container h1 {
+    text-align: center;
+    color: #5e548e;
+}
+
+.cv-container h2 {
+    margin-top: 25px;
+    color: #6d6875;
+}
