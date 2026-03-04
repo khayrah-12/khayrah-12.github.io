@@ -105,3 +105,30 @@ h3 {
     margin-top: 25px;
     color: #6d6875;
 }
+
+.section {
+    margin-bottom: 30px;
+}
+
+.cv-container p {
+    line-height: 1.6;
+    color: #444;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.bar {
+    background: #eee;
+    height: 8px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bar span {
+    display: block;
+    height: 100%;
+    background: #ffafcc;
+    border-radius: 10px;
+}
