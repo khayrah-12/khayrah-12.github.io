@@ -132,3 +132,51 @@ h3 {
     background: #ffafcc;
     border-radius: 10px;
 }
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 30px;
+}
+
+.project {
+    background: #fdf0ff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    margin: 0;
+    color: #5e548e;
+}
+
+.section h2 {
+    border-left: 5px solid #ffafcc;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    color: #5e548e;
+}
+
+.skill span {
+    font-weight: 500;
+}
+
+.bar {
+    background: #eee;
+    height: 8px;
+    border-radius: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.bar span {
+    display: block;
+    height: 100%;
+    background: #ffafcc;
+    border-radius: 10px;
+}
+
+i {
+    margin-right: 8px;
+    color: #5e548e;
+}
